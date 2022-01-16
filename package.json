@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexFangSW/nodejs_server_practice/issues"
   },
-  "homepage": "https://github.com/AlexFangSW/nodejs_server_practice#readme"
+  "homepage": "https://github.com/AlexFangSW/nodejs_server_practice#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }

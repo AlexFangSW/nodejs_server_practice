@@ -24,9 +24,9 @@ app.get("/ejstest", (req, res) => {
 });
 
 // Listen ----------------------------------
-// app.listen(PORT, IP, () => {
-//   console.log(`Listening on ${IP}:${PORT}...`);
-// });
+app.listen(PORT, IP, () => {
+  console.log(`Listening on ${IP}:${PORT}...`);
+});
 
-// For Heroku
-app.listen(process.env.PORT);
+// // For Heroku
+// app.listen(process.env.PORT);
